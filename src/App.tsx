@@ -6,7 +6,7 @@ import Banner from './assets/Banner.png'
 import Profile from './assets/Profile.png'
 import Blur from './assets/Blur.png'
 
-import { Button } from './components/button'
+import { Button } from './components/Button'
 
 import styles from './styles/App.module.scss'
 
