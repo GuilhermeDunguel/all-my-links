@@ -1,0 +1,49 @@
+$gray100: #f8f9fa;
+$gray300: #e9ecef;
+$gray400: #adb5bd;
+$gray700: #495057;
+$gray800: #343a40;
+
+$orange400: #ffa94d;
+$orange700: #f76707;
+
+$violet400: #da77f2;
+$violet700: #ae3ec9;
+
+$blue400: #4dabf7;
+$blue700: #1c7ed6;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  background-color: $gray100;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 70%;
+  }
+}

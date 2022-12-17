@@ -1,0 +1,51 @@
+@import '../../styles/globals.scss';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+
+  padding: 10px 0;
+
+  width: 275px;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  border-radius: 8px;
+
+  transition: 0.2s;
+
+  &:hover {
+    filter: brightness(105%);
+    transform: scale(105%);
+  }
+}
+
+.orange {
+  color: $gray100;
+  background: linear-gradient(91.34deg, #ffa94d 0%, #f76707 100%);
+
+  &:hover {
+    box-shadow: 0px 0px 15px #ffa94d79;
+  }
+}
+
+.violet {
+  color: $gray100;
+  background: linear-gradient(91.34deg, #da77f2 0%, #ae3ec9 100%);
+
+  &:hover {
+    box-shadow: 0px 0px 15px #d977f279;
+  }
+}
+
+.blue {
+  color: $gray100;
+  background: linear-gradient(91.34deg, #4dabf7 0%, #1c7ed6 100%);
+
+  &:hover {
+    box-shadow: 0px 0px 15px #4dabf779;
+  }
+}
